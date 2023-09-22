@@ -1,0 +1,62 @@
+body {
+    box-sizing: initial;
+    margin: 0;
+    height: 100%;
+    font-family: Helvetica, sans-serif;
+}
+
+.main-menu {
+    background-color: #1A1E23;
+    box-sizing: initial;
+    height: 100vh;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.entry-container {
+    position: relative;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+.entry-container a {
+    margin-top: 7em;
+    padding: 1em;
+    line-height: 50px;
+	height: 100%;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+    background-size:cover;
+    vertical-align: bottom;
+    width: 30%;
+    min-width: 180px;
+    max-width: 300px;
+    box-shadow: 0 0 25px 8px #4B5E66 inset;
+    border-radius: 35px;
+}
+
+.adventure-title {
+    font-family: 'Kings', cursive;
+    font-size: 1.8em;
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+}
+
+.title-container {
+    box-sizing: initial;
+    position: relative;
+    background-color: #474e5d;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 0;
+    text-align: center;
+}
+
+.legendary {
+    color: #ff8000;
+}
